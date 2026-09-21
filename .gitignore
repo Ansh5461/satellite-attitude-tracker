@@ -1,0 +1,23 @@
+# Downloaded SatNOGS observations and derived artifacts.
+# Regenerated locally by scripts/ (see download_move2_observations.py,
+# fetch_and_vet_all_observations.py, fetch_move2_tracked.py).
+/data/
+/data_move2_tracked/
+/filtered_data/
+
+# Local audio, arrays, and waterfall/plot images
+*.ogg
+*.npy
+*.npz
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+
+# Logs
+*.log
